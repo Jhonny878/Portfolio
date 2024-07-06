@@ -1,0 +1,79 @@
+@import url('./color.css');
+@import url('./styles.css');
+
+body {
+    background-color: #363062;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
+}
+
+.teclado {
+    display: grid;
+    grid-template-columns: repeat(9, 5rem);
+    grid-template-rows: repeat(3, 5rem);
+    gap: 8px;
+}
+
+.teclado p {
+    background-color: #435585;
+    border-radius: 1.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #818FB4;
+}
+
+
+.teclado p:hover {
+    -webkit-box-shadow: 9px 4px 6px 1px rgba(129,143,180,1);
+    -moz-box-shadow: 9px 4px 6px 1px rgba(129,143,180,1);
+    box-shadow: 9px 4px 6px 1px rgba(129,143,180,1);
+}
+
+.img-forca {
+    align-self: center;
+    justify-self: center;
+}
+.game-config {
+    background-color: #818FB4;
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: solid 2px #435585;
+    padding: 10px;
+    gap: 5px;
+}
+
+.game-config h2 {
+    color: #F5E8C7;
+}
+
+.game-config input {
+    color: #435585;
+    text-align: center;
+}
+
+.game-config p {
+    color: #F5E8C7;
+}
+
+.button-play {
+    color: #818FB4;
+    background-color: #F5E8C7;
+    margin-top: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.output{
+    align-self: center;
+
+}

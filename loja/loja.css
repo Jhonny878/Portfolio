@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: #26355D;
+    width: 100%;
+    height: 60.4rem;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.card {
+    flex-wrap: wrap;
+    background-color: white;
+    color: #26355D;
+    width: 28rem;
+    height: 40rem;
+    padding: 5px;
+    font-weight: 400;
+    -webkit-box-shadow: 3px 0px 0px 4px rgba(255,219,0,0.59);
+    -moz-box-shadow: 3px 0px 0px 4px rgba(255,219,0,0.59);
+    box-shadow: 3px 0px 0px 4px rgba(255,219,0,0.59);
+    border-radius: 10px 10px;
+}
+
+
+.box__image {
+    width: 60%; /* largura desejada */
+  height: 60%; /* altura desejada */
+  overflow: hidden; 
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
